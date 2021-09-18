@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Fanpage from './components/Fanpage/Fanpage';
 import Footer from './components/Footer/Footer';
 import Form from './components/Form/Form';
@@ -7,7 +7,7 @@ import Map from './components/Map/Map';
 import Nav from './components/Nav/Nav';
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Route
         render={(props) => (
           <>
@@ -28,7 +28,7 @@ function App() {
           </>
         )}
       />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
