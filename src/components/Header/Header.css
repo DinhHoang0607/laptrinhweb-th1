@@ -1,0 +1,21 @@
+header {
+  background-color: var(--main-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  height: 120px;
+}
+header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 2em;
+  color: var(--white-color);
+  font-weight: bold;
+}

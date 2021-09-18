@@ -1,0 +1,78 @@
+.form {
+  padding: 0 50px;
+  max-width: 600px;
+  margin: auto;
+}
+.select-container label,
+.radio-container label,
+.checkbox-container > label,
+.textarea-container label {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.select-container select {
+  width: 50px;
+}
+.select-container select:nth-of-type(3) {
+  width: 80px;
+}
+.select-container select ~ select {
+  margin-left: 1rem;
+}
+.radio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.radio-container label {
+  width: 100%;
+}
+.radio-item {
+  display: flex;
+}
+.radio-item ~ .radio-item {
+  margin-left: 1rem;
+}
+.radio-item > p {
+  margin-right: 5px;
+}
+.city {
+  width: 100px !important;
+}
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.checkbox-container > label {
+  width: 100%;
+}
+.checkbox-item {
+  display: flex;
+  align-items: center;
+}
+.checkbox-item > label {
+  margin-right: 5px;
+}
+.checkbox-item ~ .checkbox-item {
+  margin-left: 1rem;
+}
+.textarea-container textarea {
+  width: 100%;
+  padding: 1rem;
+}
+button {
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  background-color: var(--second-color);
+  color: var(--white-color);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  width: auto;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
